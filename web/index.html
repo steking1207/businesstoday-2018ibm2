@@ -71,8 +71,8 @@
                 </div>
                 <div class="col-12 col-md-10">
                     <blockquote class="blockquote text-left">
-                        <p class="text-justify　mb-4">　　金融產業競爭激烈，也促使銀行與保險業者的創新範圍越趨廣泛，從產品、通路、互動，更進一步延伸到業務流程的加速。短短兩年間，機器人流程自動化（Robotic Process Automation, RPA) 席捲全球產業。<br>效率的提升、錯誤率的降低，對業務創新帶來的推波助瀾，也使得對效益最為敏感的金融業積極思考。</p>
-                        <p class="text-justify　mb-0">　　IBM 引進在新加坡協助跨國銀行進行機器人流程自動化，進而推廣到其全球分行的經驗，幫助台灣金融業快速引進，並且前進下一步：以人工智慧為核心的認知流程自動化。</p>
+                        <p class="text-justify　mb-4">金融產業競爭激烈，也促使銀行與保險業者的創新範圍越趨廣泛，從產品、通路、互動，更進一步延伸到業務流程的加速。短短兩年間，機器人流程自動化（Robotic Process Automation, RPA) 席捲全球產業。<br>效率的提升、錯誤率的降低，對業務創新帶來的推波助瀾，也使得對效益最為敏感的金融業積極思考。</p>
+                        <p class="text-justify　mb-0">IBM 引進在新加坡協助跨國銀行進行機器人流程自動化，進而推廣到其全球分行的經驗，幫助台灣金融業快速引進，並且前進下一步：以人工智慧為核心的認知流程自動化。</p>
                     </blockquote>
                 </div>
             </div>
@@ -303,6 +303,13 @@
                             <label for="inputEmail">電子信箱</label>
                             <input type="email" class="form-control" id="inputEmail" placeholder="">
                         </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="inputCheck">
+                            <label class="form-check-label" for="inputCheck">
+                                我已詳閱並同意報名注意事項及<a href="javascript:void();" data-toggle="modal" data-target="#modal-rule"><u>個資告知事項</u></a>
+                            </label>
+                        </div>
+
 <!--
                         <div class="form-group">
                             <div class="form-check form-check-inline">
@@ -349,6 +356,24 @@
                 </div>
             </div>
         </footer>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modal-rule" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg vertical-align-center" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">謹依個人資料保護法第8條規定告知以下事項</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>您為本次活動的參與者（以下簡稱參與人）。 參與人所填寫的資料將會提供予IBM及今周刊。請確認所有參與人在勾選同意前已詳閱並同意以下條款： IBM及今周刊基於客戶管理、統計及調查分析、行銷及其他合於營業登記項目或章程所定業務需要或其他法令所准許之特定目的，向參與人蒐集前述個人資料，並管理維護及處理利用，其得就該等個人資料用於寄送出版物、提供各項服務或活動訊息與調查分析使用。參與人得向IBM或今周刊請求查閱、提供複本、更正或補充個人資訊，及請求刪除或停止處理利用。若參與人填寫資料不完整時，可能會影響參與人獲得IBM或今周刊所提供之出版物寄送或各項訊息通知服務或活動之權益。</p>
+                        <p class="mb-0">相關問題，請連繫活動專線(02) 8722-2966或今周刊 (02) 2581-6196 #628 #608或#609 (週一至週五 09:30-18:00)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
